@@ -44,7 +44,7 @@ The reasoning agent was evaluated across **4,029 instances** spanning all requir
 | **FOLIO validation\*** | 203 | **81.28%** | 64.53% | 71.43% | 0.03 s |
 | **CounterBench alpha** | 1000 | **91.80%** | 50.00% | 84.60% | 0.07 s |
 | **CounterBench backdoor** | 200 | **88.50%** | 52.50% | 94.00% | 0.01 s |
-| **Average** | **4,029** | ~91% | — | — | **~0.3 s** |
+| **Average** | **4,029** | ~91% | — | — | ** ** |
 
 *\*Note: FOLIO is evaluated on the decidable First-Order Logic Horn-clause fragment.*
 
