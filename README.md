@@ -1,9 +1,8 @@
 # Classical AI Reasoning System: Entailment over Knowledge Bases
 
-**Course / Subject:** Artificial Intelligence (`CSL7610`)  
+**Course / Subject:** Artificial Intelligence 
 **Name:** Bhisham Sharma  
 **Roll Number:** `M26MAC003`  
-**Methodology:** 100% Classical Symbolic AI (Zero Generative AI / LLMs for Inference)
 
 ---
 
@@ -45,11 +44,11 @@ The reasoning agent was evaluated across **4,029 instances** spanning all requir
 | **FOLIO validation\*** | 203 | **81.28%** | 64.53% | 71.43% | 0.03 s |
 | **CounterBench alpha** | 1000 | **91.80%** | 50.00% | 84.60% | 0.07 s |
 | **CounterBench backdoor** | 200 | **88.50%** | 52.50% | 94.00% | 0.01 s |
-| **TOTAL** | **4,029** | — | — | — | **~1.07 s** |
+| **Average** | **4,029** | — | — | — | **~0.3 s** |
 
 *\*Note: FOLIO is evaluated on the decidable First-Order Logic Horn-clause fragment.*
 
-### 🎯 Key Validation Metrics (for Submission Form)
+### 🎯 Key Validation Metrics
 - **FOLIO Validation Accuracy:** `81.28%` (Inference Time: `0.03s` / `30 ms` across 203 rows, `~0.15 ms/query`)
 - **RuleTaker Test Accuracy:** `98.00%` (Inference Time: `0.11s` / `110 ms` across 250 rows, `~0.44 ms/query`)
 
