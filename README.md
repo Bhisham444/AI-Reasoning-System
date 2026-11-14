@@ -37,20 +37,20 @@ The reasoning agent was evaluated across **4,029 instances** spanning all requir
 
 | Strict input | Rows | Accuracy | All-False Baseline | Coverage | Time (s) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **RuleTaker train** | 1000 | **98.50%** | 40.60% | 100.00% | 0.49 s |
-| **RuleTaker test** | 250 | **98.00%** | 37.60% | 100.00% | 0.11 s |
-| **RuleTaker OOD** | 375 | **99.20%** | 65.07% | 100.00% | 0.18 s |
-| **FOLIO train\*** | 1001 | **78.12%** | 61.24% | 78.42% | 0.18 s |
-| **FOLIO validation\*** | 203 | **81.28%** | 64.53% | 71.43% | 0.03 s |
-| **CounterBench alpha** | 1000 | **91.80%** | 50.00% | 84.60% | 0.07 s |
-| **CounterBench backdoor** | 200 | **88.50%** | 52.50% | 94.00% | 0.01 s |
-| **Average** | **4,029** | ~91% | — | — | ** ** |
+| **RuleTaker train** | 1000 | **98.50%** | 40.60% | 100.00% | 1.17 s |
+| **RuleTaker test** | 250 | **98.00%** | 37.60% | 100.00% | 0.29 s |
+| **RuleTaker OOD** | 375 | **99.20%** | 65.07% | 100.00% | 0.46 s |
+| **FOLIO train\*** | 1001 | **78.12%** | 61.24% | 78.42% | 0.46 s |
+| **FOLIO validation\*** | 203 | **81.28%** | 64.53% | 71.43% | 0.10 s |
+| **CounterBench alpha** | 1000 | **91.80%** | 50.00% | 84.60% | 0.19 s |
+| **CounterBench backdoor** | 200 | **88.50%** | 52.50% | 94.00% | 0.03 s |
+| **Average** | **4,029** | 90.77% | — | — | ** ** |
 
 *\*Note: FOLIO is evaluated on the decidable First-Order Logic Horn-clause fragment.*
 
 ### 🎯 Key Validation Metrics
-- **FOLIO Validation Accuracy:** `81.28%` (Inference Time: `0.03s` / `30 ms` across 203 rows, `~0.15 ms/query`)
-- **RuleTaker Test Accuracy:** `98.00%` (Inference Time: `0.11s` / `110 ms` across 250 rows, `~0.44 ms/query`)
+- **FOLIO Validation Accuracy:** `81.28%`
+- **RuleTaker Test Accuracy:** `98.00%` 
 
 ---
 
